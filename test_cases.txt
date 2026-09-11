@@ -1,0 +1,97 @@
+COGNIWORK - TEST CASES
+
+ROLE:
+Member 4 - Testing and Scenario
+
+TEST 1 - DATASET LOAD
+Expected:
+Customer dataset should load successfully.
+
+TEST 2 - MISSING AGE
+Customer C003 has a missing Age value.
+Expected:
+System should recognize or display the missing value.
+
+TEST 3 - MISSING ORDERS
+Customer C016 has a missing Orders value.
+Expected:
+System should recognize or display the missing value.
+
+TEST 4 - NEGATIVE ORDERS
+C002 has -2 orders.
+C022 has -1 order.
+Expected:
+System should identify negative orders as suspicious data.
+
+TEST 5 - CUSTOMER TYPE INCONSISTENCY
+The dataset contains:
+Enterprise
+enterprise
+ENT
+Standard
+standard
+
+Expected:
+System should recognize that Enterprise, enterprise and ENT may represent the same customer category.
+
+TEST 6 - DUPLICATE CUSTOMER
+C050 appears twice.
+
+Expected:
+System should identify C050 as a duplicate.
+
+TEST 7 - CHURN INVESTIGATION
+Expected:
+Student should compare churned and non-churned customers.
+
+Important fields:
+Orders
+Total Amount
+Customer Type
+Last Login Days
+
+TEST 8 - AI SENIOR CHAT
+Expected:
+Alex should ask the student about their initial approach.
+
+TEST 9 - AI CHALLENGE
+Expected:
+Alex should challenge the student's reasoning and ask about correlation versus causation.
+
+TEST 10 - UNEXPECTED INCIDENT
+Expected:
+Marketing classification change should appear during the simulation.
+
+TEST 11 - TIME PRESSURE
+Expected:
+Student should be asked to prioritize the most important evidence.
+
+TEST 12 - FINAL RECOMMENDATION
+Expected:
+Student should provide:
+1. Main finding
+2. Evidence
+3. Recommended action
+4. Limitation
+
+TEST 13 - FINAL PROFILE
+Expected:
+System should display:
+Problem Solving
+Adaptability
+Communication
+Ambiguity Handling
+Decision Making
+
+TEST 14 - DEMO COMPLETION
+Expected:
+A complete student journey should work:
+
+Briefing
+→ Data Investigation
+→ AI Conversation
+→ Challenge
+→ Unexpected Incident
+→ Time Pressure
+→ Final Recommendation
+→ Career Reality Profile
