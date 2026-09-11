@@ -1,0 +1,124 @@
+COGNIWORK - ANALYSIS KEY
+DATA ANALYST SIMULATION
+
+COMPANY:
+ShopPulse Operations
+
+ROLE:
+Junior Data Analyst
+
+MAIN BUSINESS QUESTION:
+Why are customers churning, and what can ShopPulse do to reduce churn?
+
+DATA QUALITY ISSUES
+
+1. Missing Age
+Customer C003 has a missing Age value.
+
+2. Missing Orders
+Customer C016 has a missing Orders value.
+
+3. Negative Orders
+C002 has -2 orders.
+C022 has -1 order.
+
+These should be treated as suspicious/invalid values.
+
+4. Inconsistent Customer Type
+
+The dataset contains:
+
+Enterprise
+enterprise
+ENT
+Standard
+standard
+
+Enterprise, enterprise and ENT should be standardized before analysis.
+
+5. Duplicate Customer
+
+C050 appears twice.
+
+The duplicate should be identified and removed before calculating results.
+
+CHURN PATTERNS
+
+A useful observation is that many churned customers have high Last_Login_Days.
+
+Examples:
+
+C005 - Churn: Yes - Last Login: 40 days
+C007 - Churn: Yes - Last Login: 60 days
+C009 - Churn: Yes - Last Login: 32 days
+C014 - Churn: Yes - Last Login: 45 days
+C017 - Churn: Yes - Last Login: 52 days
+C019 - Churn: Yes - Last Login: 35 days
+C023 - Churn: Yes - Last Login: 48 days
+C026 - Churn: Yes - Last Login: 55 days
+C028 - Churn: Yes - Last Login: 29 days
+C030 - Churn: Yes - Last Login: 38 days
+
+This suggests that customer inactivity may be associated with churn.
+
+IMPORTANT:
+Association does NOT prove causation.
+
+A good analyst should say:
+"Customers with longer periods since their last login appear more likely to churn, but this dataset alone does not prove that inactivity causes churn."
+
+OTHER USEFUL OBSERVATIONS
+
+Churned customers often have:
+
+- Lower order activity
+- Lower total spending
+- Longer periods since last login
+
+However, there are exceptions.
+
+Therefore, the student should avoid making absolute claims.
+
+RECOMMENDED ANALYSIS ORDER
+
+1. Check data quality.
+2. Remove or flag invalid values.
+3. Standardize customer types.
+4. Remove duplicate C050.
+5. Compare churned and non-churned customers.
+6. Examine Last_Login_Days.
+7. Examine Orders and Total_Amount.
+8. Form a hypothesis.
+9. Consider limitations.
+10. Give a business recommendation.
+
+EXPECTED BUSINESS RECOMMENDATION
+
+ShopPulse could introduce an early-warning system for inactive customers.
+
+For example:
+
+- Identify customers who have not logged in for a long period.
+- Send personalized re-engagement messages.
+- Offer targeted promotions where appropriate.
+- Monitor whether these interventions reduce churn.
+
+LIMITATIONS
+
+The dataset is small and contains intentionally messy data.
+
+The analysis shows patterns but cannot prove causation.
+
+Additional information such as customer complaints, product usage, subscription history and reasons for cancellation would improve the analysis.
+
+GOOD FINAL ANSWER
+
+"Customer inactivity appears to be strongly associated with churn in this dataset. I would first clean the data, standardize customer categories and remove duplicates. Then I would identify inactive customers as an early-warning group and test targeted re-engagement strategies. However, I would not claim that inactivity directly causes churn without additional evidence."
+
+DEMO PURPOSE
+
+This analysis key is for testing the CogniWork prototype.
+
+It is NOT shown directly to the student during the simulation.
+
+The student should discover the important observations themselves.
