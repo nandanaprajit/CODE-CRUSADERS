@@ -1,0 +1,70 @@
+COGNIWORK — DATA ANALYST SIMULATION
+
+Company: ShopPulse Operations
+
+Role: Junior Data Analyst
+
+TASK
+
+Customer churn has suddenly increased.
+
+Your senior analyst has asked you to investigate the customer
+dataset and identify possible reasons for customer churn.
+
+You have 10 minutes.
+
+You must:
+1. Identify data-quality problems.
+2. Find patterns related to churn.
+3. State your hypothesis.
+4. Explain your reasoning to your senior analyst.
+5. Adapt when new information is provided.
+6. Give a recommendation to management.
+
+
+WORKPLACE STORY
+
+9:00 AM
+
+You have joined ShopPulse Operations as a Junior Data Analyst.
+
+Your senior analyst, Alex, sends you a message:
+
+"Good morning. We have noticed an unusual increase in customer
+churn this month.
+
+Management wants to know what might be causing it.
+
+I've shared the customer dataset with you.
+
+Please investigate the data and give me your initial findings."
+
+
+ALEX — SENIOR ANALYST
+
+"What is your initial hypothesis about why customers are leaving?"
+
+
+UNEXPECTED INCIDENT
+
+URGENT UPDATE FROM OPERATIONS:
+
+"The customer classification system has recently changed.
+
+Some Enterprise customers may currently be labelled differently
+in the dataset.
+
+Your previous analysis may therefore be affected."
+
+
+ALEX:
+
+"Management still needs your revised analysis in 3 minutes.
+
+How will you handle this situation?"
+
+
+FINAL QUESTION
+
+"Based on your analysis, what should ShopPulse do to reduce
+customer churn?"
